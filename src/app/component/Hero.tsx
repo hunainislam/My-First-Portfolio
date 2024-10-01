@@ -1,10 +1,10 @@
 "use client";
 
+import hunain1 from "../../../public/assests/image/hunain1.png"
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import React from "react";
 import Link from "next/link";
-
 export default function Hero() {
   return (
     <div>
@@ -40,7 +40,7 @@ export default function Hero() {
               alt="hero"
               width={720}
               height={600}
-              src={require("../../../public/assests/image/hunain1.png")}
+              src={hunain1}
             />
           </div>
         </div>

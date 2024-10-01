@@ -1,5 +1,6 @@
 "use client"
 
+import hunain2 from "../../../public/assests/image/hunain2.jpg"
 import Typewriter from "typewriter-effect";
 import Link from "next/link"
 import Image from "next/image"
@@ -14,7 +15,7 @@ export default function About() {
         alt="hero"
         width={720}
         height={600}
-        src={require("../../../public/assests/image/hunain2.jpg")}
+        src={hunain2}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
