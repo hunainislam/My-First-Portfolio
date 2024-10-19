@@ -1,6 +1,6 @@
 "use client";
 
-import hunain1 from "../../../public/assests/image/hunain1.png"
+import hunain1 from "../../../public/assests/image/hunain1.jpg"
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import React from "react";
@@ -23,8 +23,8 @@ export default function Hero() {
               />
             </h1>
             <div className="w-[100px] h-[2px] bg-green-500"></div>
-            <p className="mb-8 leading-relaxed">
-            I am a Web Developer and UI/UX Designer, focused on building interactive websites with seamless user experiences and clean, modern designs.
+            <p className="mb-8 leading-relaxed mt-4">
+            As a passionate Web Developer and UI/UX Designer, I specialize in creating visually appealing and highly functional websites that offer seamless user experiences. With a focus on both the technical and creative aspects of web design, I ensure that every project is not only aesthetically pleasing but also user-friendly and responsive. By blending modern design principles with clean, efficient code, I strive to build web solutions that engage users and meet business goals effectively.
             </p>
             <div className="flex justify-center">
               <Link href={"#contact"}>
@@ -48,3 +48,5 @@ export default function Hero() {
     </div>
   );
 }
+
+
